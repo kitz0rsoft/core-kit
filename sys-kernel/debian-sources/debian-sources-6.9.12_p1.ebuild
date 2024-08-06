@@ -2,7 +2,7 @@
 
 EAPI=6
 
-inherit check-reqs eutils ego savedconfig
+inherit check-reqs eutils ego mount-boot savedconfig
 
 SLOT=$PF
 
@@ -243,7 +243,7 @@ src_prepare() {
 
 	# copy Genkernel cache from host into WORKDIR
 	use genkernel && mkdir "${WORKDIR}/genkernel-cache" &&
-		cp -av /var/cache/genkernel/* "${WORKDIR}/genkernel-cache"
+		cp -r /var/cache/genkernel/4.3.10 "${WORKDIR}/genkernel-cache/"
 }
 
 src_compile() {
@@ -307,7 +307,6 @@ src_install() {
 			--no-mrproper \
 			--no-clean \
 			--no-sandbox \
-			--no-mountboot \
 			$(use lvm && echo --lvm) \
 			$(use luks && echo --luks) \
 			$(use mdadm && echo --mdadm) \
