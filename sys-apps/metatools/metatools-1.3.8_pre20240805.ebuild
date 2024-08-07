@@ -30,6 +30,7 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
+SRC_URI="https://github.com/macaroni-os/funtoo-metatools/archive/3562abdc0385f862a9eb0afc5f9db383b97dbda4.zip -> metatools-1.3.8_pre20240805-3562abd.zip"
 S="${WORKDIR}/metatools-${PV}"
 
 src_configure() {
