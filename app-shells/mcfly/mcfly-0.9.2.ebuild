@@ -6,8 +6,8 @@ inherit cargo
 
 DESCRIPTION="Fly through your shell history. Great Scott!"
 HOMEPAGE="https://github.com/cantino/mcfly"
-SRC_URI="https://github.com/cantino/mcfly/tarball/4c40587545cf1c5053387c9d485fec1e64dd4f2c -> mcfly-0.9.1-4c40587.tar.gz
-https://regen.mordor/38/0d/5a/380d5a8695ef4f9f501e676929dc42b1b061031a01bc42c09a87d55b118f4d12cb8b813ddf1fa17d3d2ffa62f988584cb468bc60aa04b34688d77f781d0529f3 -> mcfly-0.9.1-funtoo-crates-bundle-2bba5e85e8d29b12bca36135d1fa8ba684c30034326795b2f30c44fd823c16612d06d5b88dbd91ad25e16aff48918748c4beb7f9d734abacc2790c5df4290da0.tar.gz"
+SRC_URI="https://github.com/cantino/mcfly/tarball/ee6c65c3d56361847e9a5aa061790a75772237ae -> mcfly-0.9.2-ee6c65c.tar.gz
+https://regen.mordor/02/5b/76/025b76ee0bc6ea90437a903caffe19d286d75bada08f041668cec57f8bb84473b09740b54454608294797a13a0f801ff8a94922cad32b2eb35cfac175dbe09cd -> mcfly-0.9.2-funtoo-crates-bundle-2f231abcb31674961b08c741dcbab8bded760c77fd70cf7004c276bc2e3b7e38cef9f9149f01496d3db652e9acc1658dbec776390490f8538e478ce799a48cbe.tar.gz"
 
 LICENSE="Apache-2.0 BSD BSD-2 CC0-1.0 MIT Unlicense"
 SLOT="0"
