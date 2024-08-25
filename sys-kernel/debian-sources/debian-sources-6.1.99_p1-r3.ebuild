@@ -6,11 +6,10 @@ inherit check-reqs eutils ego savedconfig
 
 SLOT=bookworm/$PVR
 
-# NOTE: When updating: use the version from Debian stable (bookworm):
-# https://packages.debian.org/bookworm/linux-source
+# NOTE: When updating: use the version from Debian testing (trixie)
+# https://packages.debian.org/trixie/linux-source
 DEB_PATCHLEVEL="1"
 KERNEL_TRIPLET="6.1.99"
-
 
 VERSION_SUFFIX="_p${DEB_PATCHLEVEL}"
 if [ ${PR} != "r0" ]; then
@@ -58,7 +57,9 @@ REQUIRED_USE="
 DESCRIPTION="Debian Sources (and optional binary kernel)"
 DEB_UPSTREAM="http://http.debian.net/debian/pool/main/l/linux"
 HOMEPAGE="https://packages.debian.org/unstable/kernel/"
-SRC_URI="https://deb.debian.org/debian/pool/main/l/linux/linux_${KERNEL_TRIPLET}.orig.tar.xz -> linux_${KERNEL_TRIPLET}.orig.tar.xz https://deb.debian.org/debian/pool/main/l/linux/linux_${DEB_PV}.debian.tar.xz -> linux_${DEB_PV}.debian.tar.xz https://build.funtoo.org/distfiles/debian-sources/debian-sources-6.3.7_p1-rtw89-driver.tar.gz"
+SRC_URI="https://build.funtoo.org/distfiles/debian-sources/debian-sources-6.3.7_p1-rtw89-driver.tar.gz -> debian-sources-6.3.7_p1-rtw89-driver.tar.gz
+https://deb.debian.org/debian/pool/main/l/linux/linux_6.1.99-1.debian.tar.xz -> linux_6.1.99-1.debian.tar.xz
+https://mirrors.edge.kernel.org/pub/linux/kernel/v6.x/linux-6.1.99.tar.xz -> linux-6.1.99.tar.xz"
 S="$WORKDIR/linux-${KERNEL_TRIPLET}"
 
 get_patch_list() {
@@ -365,3 +366,5 @@ pkg_postinst() {
 
 	ego_pkg_postinst
 }
+
+# vim: syn=ebuild noet ts=4
