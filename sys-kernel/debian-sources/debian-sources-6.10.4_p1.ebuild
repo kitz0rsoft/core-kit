@@ -11,6 +11,7 @@ SLOT=trixie/$PVR
 DEB_PATCHLEVEL="1"
 KERNEL_TRIPLET="6.10.4"
 
+
 VERSION_SUFFIX="_p${DEB_PATCHLEVEL}"
 if [ ${PR} != "r0" ]; then
 	VERSION_SUFFIX+="-${PR}"
@@ -57,9 +58,7 @@ REQUIRED_USE="
 DESCRIPTION="Debian Sources (and optional binary kernel)"
 DEB_UPSTREAM="http://http.debian.net/debian/pool/main/l/linux"
 HOMEPAGE="https://packages.debian.org/unstable/kernel/"
-SRC_URI="https://build.funtoo.org/distfiles/debian-sources/debian-sources-6.3.7_p1-rtw89-driver.tar.gz -> debian-sources-6.3.7_p1-rtw89-driver.tar.gz
-https://deb.debian.org/debian/pool/main/l/linux/linux_6.10.4-1.debian.tar.xz -> linux_6.10.4-1.debian.tar.xz
-https://mirrors.edge.kernel.org/pub/linux/kernel/v6.x/linux-6.10.4.tar.xz -> linux-6.10.4.tar.xz"
+SRC_URI="https://deb.debian.org/debian/pool/main/l/linux/linux_${KERNEL_TRIPLET}.orig.tar.xz -> linux_${KERNEL_TRIPLET}.orig.tar.xz https://deb.debian.org/debian/pool/main/l/linux/linux_${DEB_PV}.debian.tar.xz -> linux_${DEB_PV}.debian.tar.xz https://build.funtoo.org/distfiles/debian-sources/debian-sources-6.3.7_p1-rtw89-driver.tar.gz"
 S="$WORKDIR/linux-${KERNEL_TRIPLET}"
 
 get_patch_list() {
@@ -366,5 +365,3 @@ pkg_postinst() {
 
 	ego_pkg_postinst
 }
-
-# vim: syn=ebuild noet ts=4
