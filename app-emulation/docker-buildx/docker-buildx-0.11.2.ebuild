@@ -9,7 +9,7 @@ go-module_set_globals
 DESCRIPTION="Docker CLI plugin for extended build capabilities with BuildKit"
 HOMEPAGE="https://github.com/docker/buildx"
 SRC_URI="https://github.com/docker/buildx/tarball/9872040b6626fb7d87ef7296fd5b832e8cc2ad17 -> buildx-0.11.2-9872040.tar.gz
-https://regen.mordor/0f/67/95/0f679577bfbc41f76bd8867d3935626f474de0d873f56641dad5a9241eb611324b0df19f542d777f9174885e314ae13b6a08d8454a08fdbeeb35b5543927f0f6 -> docker-buildx-0.11.2-funtoo-go-bundle-b4b2ef08adf1fa13b5ca06a175cde88a306cfa61664d26fd9b8c77760ad9b26abf77fdf25f4e628c6ebc7c5fad874aca29d6a1dc55a8e0626fd6df9bcb4e05fd.tar.gz"
+https://regen.mordor/4a/55/9b/4a559b1dfba34caa0eae58c344354b5fa9cbde65abc9960022fd616e20a4fc20139ca1cfc4f3021582520610fe0af0e598cdade33df1a730522b0d07164d983b -> docker-buildx-0.11.2-funtoo-go-bundle-b4b2ef08adf1fa13b5ca06a175cde88a306cfa61664d26fd9b8c77760ad9b26abf77fdf25f4e628c6ebc7c5fad874aca29d6a1dc55a8e0626fd6df9bcb4e05fd.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="2"
