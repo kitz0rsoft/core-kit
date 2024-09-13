@@ -350,6 +350,9 @@ src_install() {
 }
 
 pkg_postinst() {
+	# Ensure that /boot is mounted in this phase
+	ego_pkg_preinst
+
 	# Prevent kernel, initramfs, and modules erasure during upgrade.
 	if use binary; then
 		for i in {kernel,initramfs,System.map,config}; do
@@ -400,6 +403,7 @@ pkg_postinst() {
 		depmod -a $MOD_DIR_NAME || die
 	fi
 
+	# Update bootloader and unmount /boot
 	ego_pkg_postinst
 }
 
