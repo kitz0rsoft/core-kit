@@ -9,7 +9,7 @@ go-module_set_globals
 DESCRIPTION="Define and run multi-container applications with Docker"
 HOMEPAGE="https://github.com/docker/compose"
 SRC_URI="https://github.com/docker/compose/tarball/47bb4f966066d79f5f1cb88cff57c8df43b87137 -> compose-2.21.0-47bb4f9.tar.gz
-https://regen.mordor/62/ae/84/62ae8407ad76c726aac592277d9e8456f1799d7df90bfe7ab40daee1b1e8c6374c86f9aa15299a78a7e7b6e1d1d89ec4d61bd936e372cd56ba888aab082500a6 -> docker-compose-2.21.0-funtoo-go-bundle-fde9fbd24f7587a011cd17022e88190ee79c86b4f4eb57e328abd20fbbbef500cefe85d010aea4645e92b75afbe725bd617360c3c56b300f193a864519aa79f5.tar.gz"
+https://regen.mordor/67/bc/dd/67bcdd8c476ed21d04c0019ca2d0937455a2a72604ff4259395964cf241d7ada93118bd5f0d499ebe9554102f743eca41c0b8a550b084e43bd527616d7837916 -> docker-compose-2.21.0-funtoo-go-bundle-fde9fbd24f7587a011cd17022e88190ee79c86b4f4eb57e328abd20fbbbef500cefe85d010aea4645e92b75afbe725bd617360c3c56b300f193a864519aa79f5.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="2"
