@@ -7,7 +7,7 @@ inherit cargo llvm
 DESCRIPTION="A suite of tools for thin provisioning on Linux"
 HOMEPAGE="https://github.com/jthornber/thin-provisioning-tools"
 SRC_URI="https://github.com/jthornber/thin-provisioning-tools/tarball/b745ab35057bdd0a4f1406938916621dcf2b7ef6 -> thin-provisioning-tools-1.1.0-b745ab3.tar.gz
-https://distfiles.macaronios.org/09/95/5d/09955d13cf75b71965e27c6137417649cf3f8572d8981b7a8aaa9d1e5928390712cfcccd6f856ed5d0b8537677203035bfa0ce2a1da83770462fc77578178e79 -> thin-provisioning-tools-1.1.0-funtoo-crates-bundle-e6bcd5eebd467dfbc838a2d66983434bdfc5c475a529c26b830ec5058fe8c87140d969fc3a1e9f1cb09f13ab09e55e4db2a2aa3f05a8bdd08b6cf875096e1835.tar.gz"
+https://regen.mordor/75/5c/31/755c313f54104d19337fe4984183a0c2ce415dac4f4bc0ae3775f25dd8f29448a01525d50992001ea05a4b6b983fc208f8ee73eeea97d50723d6a4f240fdadc7 -> thin-provisioning-tools-1.1.0-funtoo-crates-bundle-e6bcd5eebd467dfbc838a2d66983434bdfc5c475a529c26b830ec5058fe8c87140d969fc3a1e9f1cb09f13ab09e55e4db2a2aa3f05a8bdd08b6cf875096e1835.tar.gz"
 
 
 LICENSE="GPL-3"
