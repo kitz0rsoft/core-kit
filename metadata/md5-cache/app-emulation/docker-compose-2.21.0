@@ -8,6 +8,6 @@ LICENSE=Apache-2.0
 RDEPEND=>=app-emulation/docker-cli-23.0.0
 RESTRICT=test
 SLOT=2
-SRC_URI=https://github.com/docker/compose/tarball/47bb4f966066d79f5f1cb88cff57c8df43b87137 -> compose-2.21.0-47bb4f9.tar.gz https://distfiles.macaronios.org/cc/68/d2/cc68d237ed59db37c5cdbbcfbf123106a9c1c2f2bf2a5b9c38986cc0e43352e763f5cb2b9fbd144c4df6bbaac665eaa07297ec55f081c299d35425e447eb36f9 -> docker-compose-2.21.0-funtoo-go-bundle-fde9fbd24f7587a011cd17022e88190ee79c86b4f4eb57e328abd20fbbbef500cefe85d010aea4645e92b75afbe725bd617360c3c56b300f193a864519aa79f5.tar.gz
+SRC_URI=https://github.com/docker/compose/tarball/47bb4f966066d79f5f1cb88cff57c8df43b87137 -> compose-2.21.0-47bb4f9.tar.gz https://regen.mordor/cc/68/d2/cc68d237ed59db37c5cdbbcfbf123106a9c1c2f2bf2a5b9c38986cc0e43352e763f5cb2b9fbd144c4df6bbaac665eaa07297ec55f081c299d35425e447eb36f9 -> docker-compose-2.21.0-funtoo-go-bundle-fde9fbd24f7587a011cd17022e88190ee79c86b4f4eb57e328abd20fbbbef500cefe85d010aea4645e92b75afbe725bd617360c3c56b300f193a864519aa79f5.tar.gz
 _eclasses_=bash-completion-r1	47a7402d95930413ce25ba8d857339bb	go-module	cb10a443c46556a15ed035d7a99128e8	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	xdg-utils	14d00d009167652b1fa363e55effe213
-_md5_=9a53d8b6811f5e49c9711ca5d736fcbb
+_md5_=91ce5ac9124d9370769c4f55314cd9d5

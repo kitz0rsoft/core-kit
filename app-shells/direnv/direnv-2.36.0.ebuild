@@ -21,7 +21,7 @@ go-module_set_globals
 DESCRIPTION="Direnv is an environment switcher for the shell"
 HOMEPAGE="https://direnv.net"
 SRC_URI="https://github.com/direnv/direnv/tarball/afa992bd1bbcd3b38efa85e62e03a9f8964ff251 -> direnv-2.36.0-afa992b.tar.gz
-https://distfiles.macaronios.org/2b/5b/23/2b5b238cfd547c698b68ad8672dc707c62cb620ca502eae30d0a1be86a67ba2c8071c4e101877fbf4b2d8d5fa5d5d8af93706714ca25243f2b684e0ed663229c -> direnv-2.36.0-funtoo-go-bundle-31ed1dd2884caf732ea1a993289b6da0706189975c3b80cba884def0fe4e4a8abd4d4fb0b9bedbf905798447c9c121108460a91c421d7b99a17b6fe666e0b1cd.tar.gz"
+https://regen.mordor/2b/5b/23/2b5b238cfd547c698b68ad8672dc707c62cb620ca502eae30d0a1be86a67ba2c8071c4e101877fbf4b2d8d5fa5d5d8af93706714ca25243f2b684e0ed663229c -> direnv-2.36.0-funtoo-go-bundle-31ed1dd2884caf732ea1a993289b6da0706189975c3b80cba884def0fe4e4a8abd4d4fb0b9bedbf905798447c9c121108460a91c421d7b99a17b6fe666e0b1cd.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
