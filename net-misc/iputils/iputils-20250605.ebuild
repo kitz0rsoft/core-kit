@@ -6,7 +6,7 @@ PLOCALES="de fr ja pt_BR tr uk zh_CN"
 
 inherit fcaps meson plocale toolchain-funcs
 
-SRC_URI="https://github.com/iputils/iputils/tarball/23b06385444fba29c898370ae6f297e41c11667b -> iputils-20250602-23b0638.tar.gz"
+SRC_URI="https://github.com/iputils/iputils/tarball/6e1cb146547eb6fbb127ffc8397a9241be0d33c2 -> iputils-20250605-6e1cb14.tar.gz"
 KEYWORDS="*"
 DESCRIPTION="Network monitoring tools including ping and ping6"
 HOMEPAGE="https://wiki.linuxfoundation.org/networking/iputils"
