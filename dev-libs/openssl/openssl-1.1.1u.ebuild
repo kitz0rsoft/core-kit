@@ -6,7 +6,7 @@ inherit flag-o-matic toolchain-funcs multilib-minimal
 
 DESCRIPTION="full-strength general purpose cryptography library (including SSL and TLS)"
 HOMEPAGE="https://www.openssl.org/"
-SRC_URI="https://www.openssl.org/source/openssl-1.1.1q.tar.gz -> openssl-1.1.1q.tar.gz"
+SRC_URI="https://www.openssl.org/source/openssl-1.1.1u.tar.gz -> openssl-1.1.1u.tar.gz"
 
 LICENSE="openssl"
 SLOT="0/${PVR}" # Funtoo change -- force more frequent rebuilds.
