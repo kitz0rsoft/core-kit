@@ -6,7 +6,7 @@ inherit multilib toolchain-funcs multilib-minimal flag-o-matic
 
 DESCRIPTION="Various utilities dealing with the PCI bus"
 HOMEPAGE="http://mj.ucw.cz/sw/pciutils/ https://git.kernel.org/?p=utils/pciutils/pciutils.git"
-SRC_URI="https://github.com/pciutils/pciutils/tarball/7c5bf915f87d8e4c62be66275c8e73a5f03fa5ee -> pciutils-3.13.0-7c5bf91.tar.gz"
+SRC_URI="https://github.com/pciutils/pciutils/tarball/c6030ae1576b6bf1de9b41f53a9ed76137181d99 -> pciutils-3.14.0-c6030ae.tar.gz"
 S="${WORKDIR}/${P/_/}"
 
 LICENSE="GPL-2"

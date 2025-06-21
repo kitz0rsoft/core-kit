@@ -8,6 +8,6 @@ KEYWORDS=*
 LICENSE=GPL-2
 RDEPEND=kmod? ( sys-apps/kmod ) static-libs? ( zlib? ( >=sys-libs/zlib-1.2.8-r1[static-libs(+),-mgorny(-)] ) ) !static-libs? ( zlib? ( >=sys-libs/zlib-1.2.8-r1[-mgorny(-)] ) ) udev? ( >=virtual/libudev-208[-mgorny(-)] ) sys-apps/hwids
 SLOT=0
-SRC_URI=https://github.com/pciutils/pciutils/tarball/7c5bf915f87d8e4c62be66275c8e73a5f03fa5ee -> pciutils-3.13.0-7c5bf91.tar.gz
+SRC_URI=https://github.com/pciutils/pciutils/tarball/c6030ae1576b6bf1de9b41f53a9ed76137181d99 -> pciutils-3.14.0-c6030ae.tar.gz
 _eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	d0939f99dd528dd0c5ec25284877bf5c	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multilib-build	dbed54cab0d2fac962c6342aeae40ef9	multilib-minimal	8bddda43703ba94d8341f4e247f97566	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=74654b30ffb13ce3a7a3401eba135f3f
+_md5_=e613d9024f800a5629e486bd986552a7
