@@ -8,14 +8,14 @@ inherit bash-completion-r1 elisp-common python-any-r1 toolchain-funcs
 
 DESCRIPTION=""
 HOMEPAGE="hhttps://ninja-build.org/"
-SRC_URI="https://github.com/ninja-build/ninja/tarball/b4d51f6ed5bed09dd2b70324df0d9cb4ecad2638 -> ninja-1.13.0-b4d51f6.tar.gz"
+SRC_URI="https://github.com/ninja-build/ninja/tarball/79feac0f3e3bc9da9effc586cd5fea41e7550051 -> ninja-1.13.1-79feac0.tar.gz"
 LICENSE="Apache-2.0"
 
 KEYWORDS="*"
 SLOT="0"
 IUSE="doc emacs vim-syntax"
 
-S="${WORKDIR}/ninja-build-ninja-b4d51f6"
+S="${WORKDIR}/ninja-build-ninja-79feac0"
 
 BDEPEND="
 	${PYTHON_DEPS}
